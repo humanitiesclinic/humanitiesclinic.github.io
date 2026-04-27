@@ -1,0 +1,762 @@
+{
+  "name": "The Unified Framework Collective",
+  "base_url": "https://unifiedframeworkcollective.surge.sh",
+  "layout": "layouts/default.json",
+  "theme": "nuxt_theme.json",
+  "locales": ["en"],
+  "default_locale": "en",
+  "auto_translate": false,
+  "output": "dist",
+  "sitemap": true,
+  "robots": true,
+  "pages": [
+    {
+      "slug": "",
+      "locale": "en",
+      "meta": {
+        "title": "The Unified Framework Collective – Knowledge That Shows You the Whole Picture",
+        "description": "UFC publishes comprehensive textbooks that reveal the complete structure of complex subjects — unified frameworks for serious learners worldwide.",
+        "canonical": "https://unifiedframeworkcollective.surge.sh"
+      },
+      "nav": {
+        "label": "Home",
+        "section": "Main",
+        "show": true,
+        "order": 1
+      },
+      "blocks": [
+        {
+          "widget": "hero",
+          "heading": "Knowledge that shows you the whole picture",
+          "subheading": "The Unified Framework Collective publishes comprehensive textbooks that reveal the complete structure of complex subjects — not fragments, but the full picture.",
+          "cta_primary_label": "Explore Our Books",
+          "cta_primary_href": "/books/",
+          "cta_secondary_label": "Who We Are",
+          "cta_secondary_href": "/who-we-are/",
+          "gradient_bg": true
+        },
+        {
+          "widget": "features",
+          "heading": "What makes our books different",
+          "items": [
+            {"icon": "🧩", "title": "Unified Frameworks", "description": "Every book builds a single coherent structure that connects all the pieces of a complex subject into one intelligible whole."},
+            {"icon": "🔭", "title": "The Missing Big Picture", "description": "We address the gap between textbooks that teach parts and readers who need to understand the whole field."},
+            {"icon": "🌏", "title": "Published in Singapore", "description": "Written for a global audience with international distribution on Amazon, Lulu, and Gumroad."}
+          ],
+          "columns": 3
+        },
+        {
+          "widget": "portfolios",
+          "heading": "Our Books",
+          "image_aspect": "book",
+          "items": [
+            {
+              "image": "/assets/images/quantum-theories-cover.jpeg",
+              "title": "Quantum Theories: The Missing Big Picture",
+              "description": "A unified framework for understanding quantum evolution. The complete picture that standard textbooks leave out.",
+              "href": "/books/quantum-theories/",
+              "tags": ["Physics", "Science"]
+            },
+            {
+              "image": "/assets/images/multilingual-cover.jpeg",
+              "title": "How to Be Multilingual FAST",
+              "description": "Learning languages through comparative study — a systematic framework for acquiring multiple languages efficiently.",
+              "href": "/books/how-to-be-multilingual-fast/",
+              "tags": ["Languages", "Learning"]
+            },
+            {
+              "image": "/assets/images/hsk-cover.jpeg",
+              "title": "HSK 3.0 Study Guide and Mock Papers",
+              "description": "Complete preparation for the new HSK 3.0 Chinese proficiency examination with full mock papers.",
+              "href": "/books/hsk-3-study-guide/",
+              "tags": ["Chinese", "Exam"]
+            }
+          ],
+          "columns": 3
+        },
+        {
+          "widget": "cta_band",
+          "heading": "Support the mission of unified knowledge",
+          "subheading": "Buy our books, share our work, or support us directly.",
+          "cta_label": "What You Can Do",
+          "cta_href": "/what-you-can-do/",
+          "background": "gradient"
+        },
+        {
+          "widget": "faq",
+          "items": [
+            {"question": "What kind of books does UFC publish?", "answer": "We publish comprehensive textbooks that present entire subjects as unified frameworks — books that show the full shape of the field, not just isolated chapters.", "open": true},
+            {"question": "Where can I buy the books?", "answer": "Our books are available on Amazon, Lulu, and Gumroad. Visit individual book pages for direct purchase links."},
+            {"question": "Are the books suitable for self-study?", "answer": "Yes. All UFC books are written for independent learners as well as formal educational settings."},
+            {"question": "Is UFC based in Singapore?", "answer": "Yes. The Unified Framework Collective is based in Singapore and publishes for a global readership."}
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "who-we-are",
+      "locale": "en",
+      "meta": {
+        "title": "Who We Are – The Unified Framework Collective",
+        "description": "The Unified Framework Collective is an educational publisher based in Singapore. We believe every subject has a shape, and our books reveal it.",
+        "canonical": "https://unifiedframeworkcollective.surge.sh/who-we-are/"
+      },
+      "nav": {
+        "label": "Who We Are",
+        "section": "About",
+        "show": true,
+        "order": 2
+      },
+      "blocks": [
+        {
+          "widget": "hero",
+          "heading": "We believe every subject has a shape",
+          "subheading": "The Unified Framework Collective is an educational publisher dedicated to revealing the complete structure of complex fields of knowledge.",
+          "gradient_bg": true
+        },
+        {
+          "widget": "about",
+          "heading": "Our story",
+          "body": "The Unified Framework Collective was founded on a simple but powerful observation: most textbooks teach the parts of a subject but fail to show how those parts connect into a coherent whole. We call this the missing big picture — and we exist to provide it. Our books are built around unified frameworks: structured maps of entire fields that show where every concept fits and how everything relates. Whether the subject is quantum physics, language acquisition, or Chinese proficiency exams, we approach it the same way — start with the whole, then fill in the details.",
+          "layout": "centered"
+        },
+        {
+          "widget": "features",
+          "heading": "What drives us",
+          "items": [
+            {"icon": "🎯", "title": "Our Mission", "description": "To publish textbooks that give readers the complete, unified picture of complex subjects — books that show the full shape of the elephant."},
+            {"icon": "🔬", "title": "Our Approach", "description": "The unified framework methodology: establish the complete structure first, then connect every detail back to that structure."},
+            {"icon": "🌏", "title": "Our Home", "description": "Based in Singapore, we publish for readers worldwide across science, language, and education."}
+          ],
+          "columns": 3
+        },
+        {
+          "widget": "cta_band",
+          "heading": "See what we have built",
+          "subheading": "Explore our current catalogue of books.",
+          "cta_label": "Our Books",
+          "cta_href": "/books/",
+          "secondary_label": "What We Do",
+          "secondary_href": "/what-we-do/",
+          "background": "gradient"
+        }
+      ]
+    },
+    {
+      "slug": "what-we-do",
+      "locale": "en",
+      "meta": {
+        "title": "What We Do – The Unified Framework Collective",
+        "description": "UFC publishes, develops unified framework methodologies, and supports educators worldwide. Learn about our publications, frameworks, and educational work.",
+        "canonical": "https://unifiedframeworkcollective.surge.sh/what-we-do/"
+      },
+      "nav": {
+        "label": "What We Do",
+        "section": "About",
+        "show": true,
+        "order": 3
+      },
+      "blocks": [
+        {
+          "widget": "hero",
+          "heading": "Building frameworks that illuminate entire fields",
+          "subheading": "From publishing to methodology to educator support — everything we do serves one goal: knowledge that shows you the whole picture.",
+          "gradient_bg": true
+        },
+        {
+          "widget": "features",
+          "heading": "Our work",
+          "items": [
+            {"icon": "📚", "title": "Publications", "description": "Comprehensive textbooks across science, language learning, and exam preparation. Each book is a complete unified framework. <a href='/what-we-do/publications/' class='text-green-600 font-semibold'>See our publications →</a>"},
+            {"icon": "🧠", "title": "Unified Frameworks", "description": "Our core methodology: revealing the complete structural unity of complex subjects so readers can understand, not just memorise. <a href='/what-we-do/frameworks/' class='text-green-600 font-semibold'>Learn about our methodology →</a>"},
+            {"icon": "🏫", "title": "For Educators", "description": "We support teachers and institutions who want depth and coherence in their curriculum. <a href='/what-we-do/for-educators/' class='text-green-600 font-semibold'>Information for educators →</a>"}
+          ],
+          "columns": 3
+        }
+      ]
+    },
+    {
+      "slug": "what-we-do/publications",
+      "locale": "en",
+      "meta": {
+        "title": "Publications – The Unified Framework Collective",
+        "description": "All UFC publications: Quantum Theories, How to Be Multilingual FAST, HSK 3.0 Study Guide. Comprehensive textbooks built as unified frameworks.",
+        "canonical": "https://unifiedframeworkcollective.surge.sh/what-we-do/publications/"
+      },
+      "nav": {
+        "label": "Publications",
+        "section": "About",
+        "show": false,
+        "order": 4
+      },
+      "blocks": [
+        {
+          "widget": "hero",
+          "heading": "Our Publications",
+          "subheading": "Each UFC book presents an entire subject as a unified framework — a complete map that connects all concepts and reveals the full structure of the field.",
+          "gradient_bg": true
+        },
+        {
+          "widget": "portfolios",
+          "heading": "Current Catalogue",
+          "image_aspect": "book",
+          "items": [
+            {
+              "image": "/assets/images/quantum-theories-cover.jpeg",
+              "title": "Quantum Theories: The Missing Big Picture",
+              "description": "A unified framework for understanding quantum evolution.",
+              "href": "/books/quantum-theories/",
+              "tags": ["Physics", "Science"]
+            },
+            {
+              "image": "/assets/images/multilingual-cover.jpeg",
+              "title": "How to Be Multilingual FAST",
+              "description": "Learning languages through comparative study.",
+              "href": "/books/how-to-be-multilingual-fast/",
+              "tags": ["Languages", "Learning"]
+            },
+            {
+              "image": "/assets/images/hsk-cover.jpeg",
+              "title": "HSK 3.0 Study Guide and Mock Papers",
+              "description": "Complete preparation for the HSK 3.0 Chinese proficiency examination.",
+              "href": "/books/hsk-3-study-guide/",
+              "tags": ["Chinese", "Exam"]
+            }
+          ],
+          "columns": 3
+        }
+      ]
+    },
+    {
+      "slug": "what-we-do/frameworks",
+      "locale": "en",
+      "meta": {
+        "title": "The Unified Framework Methodology – The Unified Framework Collective",
+        "description": "What is a unified framework? How UFC approaches knowledge — revealing the complete structure of complex subjects through a whole-first methodology.",
+        "canonical": "https://unifiedframeworkcollective.surge.sh/what-we-do/frameworks/"
+      },
+      "nav": {
+        "label": "Frameworks",
+        "section": "About",
+        "show": false,
+        "order": 5
+      },
+      "blocks": [
+        {
+          "widget": "hero",
+          "heading": "The Unified Framework Methodology",
+          "subheading": "A principled approach to knowledge: start with the whole, then fill in the details.",
+          "gradient_bg": true
+        },
+        {
+          "widget": "about",
+          "heading": "What is a unified framework?",
+          "body": "A unified framework is a complete structural map of a subject. It shows how all the concepts, theories, and facts in a field relate to one another — not as a flat list, but as a coherent architecture. Most educational resources teach the parts of a subject. UFC books teach the shape of the whole. This is what we call the missing big picture: the overarching structure that makes all the individual pieces comprehensible and memorable. When you understand the framework, the details fall into place naturally.",
+          "layout": "centered"
+        },
+        {
+          "widget": "features",
+          "heading": "Our methodology in practice",
+          "items": [
+            {"icon": "🌐", "title": "Start with the whole", "description": "Before introducing any detail, we establish the complete structure. Readers always know where they are in the bigger picture."},
+            {"icon": "🔗", "title": "Connect everything", "description": "Every concept is shown in relation to others. Nothing is introduced in isolation."},
+            {"icon": "💡", "title": "Reveal hidden patterns", "description": "Unified frameworks surface the deep logic that connects disparate concepts — patterns that standard textbooks leave implicit."},
+            {"icon": "📍", "title": "Show where things fit", "description": "The framework acts as a map. At every point in the book, readers know exactly where they are and why it matters."}
+          ],
+          "columns": 2
+        }
+      ]
+    },
+    {
+      "slug": "what-we-do/for-educators",
+      "locale": "en",
+      "meta": {
+        "title": "For Educators – The Unified Framework Collective",
+        "description": "Using UFC books in your classroom or institution. Curriculum integration, bulk orders, and teaching support for educators worldwide.",
+        "canonical": "https://unifiedframeworkcollective.surge.sh/what-we-do/for-educators/"
+      },
+      "nav": {
+        "label": "For Educators",
+        "section": "About",
+        "show": false,
+        "order": 6
+      },
+      "blocks": [
+        {
+          "widget": "hero",
+          "heading": "For Educators and Institutions",
+          "subheading": "UFC books are designed for both self-study and formal education. We welcome partnerships with schools, universities, and learning institutions worldwide.",
+          "gradient_bg": true
+        },
+        {
+          "widget": "features",
+          "heading": "How we support educators",
+          "items": [
+            {"icon": "📋", "title": "Curriculum Integration", "description": "Our books are structured to integrate naturally into courses on physics, language learning, and Chinese language education."},
+            {"icon": "📦", "title": "Bulk and Institutional Orders", "description": "Contact us for information on educational pricing and bulk orders for your institution."},
+            {"icon": "🗂️", "title": "Teaching Support", "description": "Each title is written with clarity and structure that supports classroom discussion, assignments, and independent study."}
+          ],
+          "columns": 3
+        },
+        {
+          "widget": "cta_band",
+          "heading": "Get in touch",
+          "subheading": "We would love to hear from educators interested in using UFC books.",
+          "cta_label": "Contact Us",
+          "cta_href": "/contact/",
+          "background": "gradient"
+        }
+      ]
+    },
+    {
+      "slug": "books",
+      "locale": "en",
+      "meta": {
+        "title": "Books – The Unified Framework Collective",
+        "description": "All UFC books: Quantum Theories, How to Be Multilingual FAST, HSK 3.0 Study Guide. Comprehensive textbooks built as unified frameworks.",
+        "canonical": "https://unifiedframeworkcollective.surge.sh/books/"
+      },
+      "nav": {
+        "label": "Books",
+        "section": "Books",
+        "show": true,
+        "order": 7
+      },
+      "blocks": [
+        {
+          "widget": "hero",
+          "heading": "Our Books",
+          "subheading": "Every UFC book is a complete unified framework — a comprehensive map of an entire subject that shows you the whole picture.",
+          "gradient_bg": true
+        },
+        {
+          "widget": "portfolios",
+          "heading": "",
+          "image_aspect": "book",
+          "filter_tags": true,
+          "items": [
+            {
+              "image": "/assets/images/quantum-theories-cover.jpeg",
+              "title": "Quantum Theories: The Missing Big Picture",
+              "description": "A unified framework for understanding quantum evolution. Available on Amazon, Lulu, and Gumroad.",
+              "href": "/books/quantum-theories/",
+              "tags": ["Physics", "Science", "Quantum"]
+            },
+            {
+              "image": "/assets/images/multilingual-cover.jpeg",
+              "title": "How to Be Multilingual FAST",
+              "description": "Learning languages through comparative study. A systematic framework for acquiring multiple languages efficiently.",
+              "href": "/books/how-to-be-multilingual-fast/",
+              "tags": ["Languages", "Learning", "Linguistics"]
+            },
+            {
+              "image": "/assets/images/hsk-cover.jpeg",
+              "title": "HSK 3.0 Study Guide and Mock Papers",
+              "description": "Complete preparation for the HSK 3.0 Chinese proficiency examination with comprehensive mock papers.",
+              "href": "/books/hsk-3-study-guide/",
+              "tags": ["Chinese", "HSK", "Exam"]
+            }
+          ],
+          "columns": 3
+        }
+      ]
+    },
+    {
+      "slug": "books/quantum-theories",
+      "locale": "en",
+      "meta": {
+        "title": "Quantum Theories: The Missing Big Picture – UFC",
+        "description": "A unified framework for understanding quantum evolution. The complete picture that standard quantum physics textbooks leave out. Available on Amazon, Lulu, and Gumroad.",
+        "canonical": "https://unifiedframeworkcollective.surge.sh/books/quantum-theories/"
+      },
+      "nav": {
+        "label": "Quantum Theories",
+        "section": "Books",
+        "show": false,
+        "order": 8
+      },
+      "blocks": [
+        {
+          "widget": "hero",
+          "heading": "Quantum Theories: The Missing Big Picture",
+          "subheading": "A Unified Framework for Understanding Quantum Evolution",
+          "cta_primary_label": "See All Buy Options",
+          "cta_primary_href": "https://linktr.ee/quantumtheoriesmissingbigpic",
+          "gradient_bg": false
+        },
+        {
+          "widget": "about",
+          "heading": "About this book",
+          "body": "Quantum physics is taught in fragments. You learn wave-particle duality here, quantum entanglement there, the uncertainty principle somewhere else — but nobody shows you how they all fit together. Quantum Theories: The Missing Big Picture provides exactly that: a unified framework that reveals the complete architecture of quantum theory. This book shows how quantum mechanics, quantum field theory, and quantum evolution form a coherent whole — and gives you the map you need to navigate the entire field with confidence.",
+          "image": "/assets/images/quantum-theories-cover.jpeg",
+          "layout": "image_right"
+        },
+        {
+          "widget": "features",
+          "heading": "What is inside",
+          "items": [
+            {"icon": "🔭", "title": "The complete quantum picture", "description": "A structural overview of quantum theory that shows how all the major concepts and frameworks connect."},
+            {"icon": "🧬", "title": "Quantum evolution framework", "description": "A clear, unified account of how quantum systems evolve — the thread that ties the entire field together."},
+            {"icon": "📐", "title": "Rigorous but accessible", "description": "Written for serious learners: mathematically grounded but always revealing the conceptual structure behind the formalism."}
+          ],
+          "columns": 3
+        },
+        {
+          "widget": "features",
+          "heading": "Where to buy",
+          "items": [
+            {"icon": "🛒", "title": "Amazon", "description": "<a href='https://www.amazon.com/Quantum-Theories-Framework-Understanding-Evolution-ebook/dp/B0GHMMXH9Q/' target='_blank' class='text-green-600 font-semibold hover:underline'>Buy on Amazon →</a>"},
+            {"icon": "📖", "title": "Lulu", "description": "<a href='https://www.lulu.com/shop/the-unified-framework-collective/quantum-theories-the-missing-big-picture/ebook/product-zmekyvr.html' target='_blank' class='text-green-600 font-semibold hover:underline'>Buy on Lulu →</a>"},
+            {"icon": "💳", "title": "Gumroad", "description": "<a href='https://humanitycare4.gumroad.com/l/uoslr' target='_blank' class='text-green-600 font-semibold hover:underline'>Buy on Gumroad →</a>"},
+            {"icon": "🔗", "title": "All Links", "description": "<a href='https://linktr.ee/quantumtheoriesmissingbigpic' target='_blank' class='text-green-600 font-semibold hover:underline'>All options on Linktree →</a>"}
+          ],
+          "columns": 4
+        }
+      ]
+    },
+    {
+      "slug": "books/how-to-be-multilingual-fast",
+      "locale": "en",
+      "meta": {
+        "title": "How to Be Multilingual FAST – UFC",
+        "description": "Learning languages through comparative study. A systematic framework for acquiring multiple languages efficiently. Available on Amazon.",
+        "canonical": "https://unifiedframeworkcollective.surge.sh/books/how-to-be-multilingual-fast/"
+      },
+      "nav": {
+        "label": "How to Be Multilingual FAST",
+        "section": "Books",
+        "show": false,
+        "order": 9
+      },
+      "blocks": [
+        {
+          "widget": "hero",
+          "heading": "How to Be Multilingual FAST",
+          "subheading": "Learning Languages Through Comparative Study",
+          "cta_primary_label": "Buy on Amazon",
+          "cta_primary_href": "https://www.amazon.com/How-Multilingual-FAST-Languages-Comparative-ebook/dp/B0GNFK7XSF/",
+          "gradient_bg": false
+        },
+        {
+          "widget": "about",
+          "heading": "About this book",
+          "body": "Most language learners study one language at a time, in isolation. How to Be Multilingual FAST takes a radically different approach: by studying multiple languages comparatively, you leverage the structural similarities between them to learn all of them faster. This book provides a unified framework for language acquisition — a systematic method that shows how languages are built, what they share, and how to exploit those patterns to become multilingual efficiently. Whether you are starting your second language or your fifth, this book gives you the map.",
+          "image": "/assets/images/multilingual-cover.jpeg",
+          "layout": "image_right"
+        },
+        {
+          "widget": "features",
+          "heading": "What is inside",
+          "items": [
+            {"icon": "🗺️", "title": "A comparative framework", "description": "A structural overview of how languages are built — what they share and how they differ across language families."},
+            {"icon": "⚡", "title": "Accelerated acquisition", "description": "Techniques for leveraging cross-linguistic patterns to learn multiple languages simultaneously and efficiently."},
+            {"icon": "🎯", "title": "Practical and systematic", "description": "Concrete methods grounded in comparative linguistics, designed for real learners with real goals."}
+          ],
+          "columns": 3
+        },
+        {
+          "widget": "features",
+          "heading": "Where to buy",
+          "items": [
+            {"icon": "🛒", "title": "Amazon", "description": "<a href='https://www.amazon.com/How-Multilingual-FAST-Languages-Comparative-ebook/dp/B0GNFK7XSF/' target='_blank' class='text-green-600 font-semibold hover:underline'>Buy on Amazon →</a>"}
+          ],
+          "columns": 1
+        }
+      ]
+    },
+    {
+      "slug": "books/hsk-3-study-guide",
+      "locale": "en",
+      "meta": {
+        "title": "HSK 3.0 Study Guide and Mock Papers – UFC",
+        "description": "Complete preparation for the new HSK 3.0 Chinese proficiency examination. Comprehensive study guide with full mock papers. Available on Amazon.",
+        "canonical": "https://unifiedframeworkcollective.surge.sh/books/hsk-3-study-guide/"
+      },
+      "nav": {
+        "label": "HSK 3.0 Study Guide",
+        "section": "Books",
+        "show": false,
+        "order": 10
+      },
+      "blocks": [
+        {
+          "widget": "hero",
+          "heading": "HSK 3.0 Study Guide and Mock Papers",
+          "subheading": "Complete Preparation for the New HSK 3.0 Chinese Proficiency Examination",
+          "cta_primary_label": "Buy on Amazon",
+          "cta_primary_href": "https://www.amazon.com/dp/B0GGZ67J18",
+          "gradient_bg": false
+        },
+        {
+          "widget": "about",
+          "heading": "About this book",
+          "body": "The HSK examination underwent a major restructuring with HSK 3.0 — a more demanding and comprehensive framework than its predecessor. This study guide provides everything you need: a clear explanation of the new HSK 3.0 structure, systematic vocabulary and grammar coverage for each level, and full mock papers for exam practice. Written from a unified framework perspective, the guide does not just drill individual items — it shows you the complete architecture of the examination so you always understand where you are and what you need.",
+          "image": "/assets/images/hsk-cover.jpeg",
+          "layout": "image_right"
+        },
+        {
+          "widget": "features",
+          "heading": "What is inside",
+          "items": [
+            {"icon": "📝", "title": "Full mock papers", "description": "Complete practice examinations modelled on the actual HSK 3.0 format and difficulty."},
+            {"icon": "📚", "title": "Systematic coverage", "description": "Vocabulary and grammar organised by the new HSK 3.0 framework across all levels."},
+            {"icon": "🗂️", "title": "Exam structure overview", "description": "A clear map of the entire HSK 3.0 system so you know exactly what to prepare and why."}
+          ],
+          "columns": 3
+        },
+        {
+          "widget": "features",
+          "heading": "Where to buy",
+          "items": [
+            {"icon": "🛒", "title": "Amazon", "description": "<a href='https://www.amazon.com/dp/B0GGZ67J18' target='_blank' class='text-green-600 font-semibold hover:underline'>Buy on Amazon →</a>"}
+          ],
+          "columns": 1
+        }
+      ]
+    },
+    {
+      "slug": "what-you-can-do",
+      "locale": "en",
+      "meta": {
+        "title": "What You Can Do – The Unified Framework Collective",
+        "description": "Support UFC's mission to publish comprehensive, unified knowledge. Buy our books, give financially, or help spread the word.",
+        "canonical": "https://unifiedframeworkcollective.surge.sh/what-you-can-do/"
+      },
+      "nav": {
+        "label": "What You Can Do",
+        "section": "Get Involved",
+        "show": true,
+        "order": 11
+      },
+      "blocks": [
+        {
+          "widget": "hero",
+          "heading": "Here is how you can help",
+          "subheading": "The Unified Framework Collective is a small, independent publisher. Your support — in any form — makes a real difference.",
+          "gradient_bg": true
+        },
+        {
+          "widget": "features",
+          "heading": "",
+          "items": [
+            {"icon": "☕", "title": "Give", "description": "Support our work financially and help us publish more unified frameworks. <a href='/what-you-can-do/give/' class='text-green-600 font-semibold'>Support us →</a>"},
+            {"icon": "📚", "title": "Buy Our Books", "description": "The most direct way to support UFC is to buy our books and share them with others. <a href='/what-you-can-do/buy/' class='text-green-600 font-semibold'>Browse books →</a>"},
+            {"icon": "📣", "title": "Spread the Word", "description": "Tell colleagues, students, and friends about UFC. Share our books online and leave reviews. <a href='/what-you-can-do/spread-the-word/' class='text-green-600 font-semibold'>See how →</a>"}
+          ],
+          "columns": 3
+        }
+      ]
+    },
+    {
+      "slug": "what-you-can-do/give",
+      "locale": "en",
+      "meta": {
+        "title": "Give – The Unified Framework Collective",
+        "description": "Support UFC's mission to publish comprehensive, unified knowledge. Your contribution helps us research, write, and publish more unified frameworks.",
+        "canonical": "https://unifiedframeworkcollective.surge.sh/what-you-can-do/give/"
+      },
+      "nav": {
+        "label": "Give",
+        "section": "Get Involved",
+        "show": false,
+        "order": 12
+      },
+      "blocks": [
+        {
+          "widget": "hero",
+          "heading": "Support our mission",
+          "subheading": "Your contribution helps us research, write, and publish more unified frameworks — making complex knowledge accessible to everyone.",
+          "gradient_bg": true
+        },
+        {
+          "widget": "about",
+          "heading": "Why your support matters",
+          "body": "The Unified Framework Collective is an independent educational publisher. We do not have the resources of large academic publishers — every book we produce is the result of sustained, focused effort by a small team. When you support us financially, you directly enable the next book. You make it possible for us to spend the time needed to get the big picture right, to do the research that standard textbooks skip, and to present knowledge in a way that genuinely serves learners. Every contribution, no matter the size, matters.",
+          "layout": "centered"
+        },
+        {
+          "widget": "cta_band",
+          "heading": "Ready to support UFC?",
+          "subheading": "Buy Me a Coffee support page coming soon. In the meantime, buying our books is the best way to support us.",
+          "cta_label": "Buy Our Books",
+          "cta_href": "/books/",
+          "background": "gradient"
+        }
+      ]
+    },
+    {
+      "slug": "what-you-can-do/buy",
+      "locale": "en",
+      "meta": {
+        "title": "Buy Our Books – The Unified Framework Collective",
+        "description": "Purchase UFC books on Amazon, Lulu, or Gumroad. Quantum Theories, How to Be Multilingual FAST, HSK 3.0 Study Guide.",
+        "canonical": "https://unifiedframeworkcollective.surge.sh/what-you-can-do/buy/"
+      },
+      "nav": {
+        "label": "Buy Books",
+        "section": "Get Involved",
+        "show": false,
+        "order": 13
+      },
+      "blocks": [
+        {
+          "widget": "hero",
+          "heading": "Buy Our Books",
+          "subheading": "Every purchase directly supports UFC's mission to publish unified knowledge.",
+          "gradient_bg": true
+        },
+        {
+          "widget": "portfolios",
+          "heading": "",
+          "image_aspect": "book",
+          "items": [
+            {
+              "image": "/assets/images/quantum-theories-cover.jpeg",
+              "title": "Quantum Theories: The Missing Big Picture",
+              "description": "Available on Amazon, Lulu, and Gumroad.",
+              "href": "/books/quantum-theories/",
+              "tags": ["Physics"]
+            },
+            {
+              "image": "/assets/images/multilingual-cover.jpeg",
+              "title": "How to Be Multilingual FAST",
+              "description": "Available on Amazon.",
+              "href": "/books/how-to-be-multilingual-fast/",
+              "tags": ["Languages"]
+            },
+            {
+              "image": "/assets/images/hsk-cover.jpeg",
+              "title": "HSK 3.0 Study Guide and Mock Papers",
+              "description": "Available on Amazon.",
+              "href": "/books/hsk-3-study-guide/",
+              "tags": ["Chinese"]
+            }
+          ],
+          "columns": 3
+        }
+      ]
+    },
+    {
+      "slug": "what-you-can-do/spread-the-word",
+      "locale": "en",
+      "meta": {
+        "title": "Spread the Word – The Unified Framework Collective",
+        "description": "Help others discover UFC books. Share on social media, recommend to educators, leave reviews, and tell friends and colleagues.",
+        "canonical": "https://unifiedframeworkcollective.surge.sh/what-you-can-do/spread-the-word/"
+      },
+      "nav": {
+        "label": "Spread the Word",
+        "section": "Get Involved",
+        "show": false,
+        "order": 14
+      },
+      "blocks": [
+        {
+          "widget": "hero",
+          "heading": "Help spread the word",
+          "subheading": "The best advertising is a personal recommendation. If UFC books have been useful to you, please share them with others.",
+          "gradient_bg": true
+        },
+        {
+          "widget": "features",
+          "heading": "Here is how",
+          "items": [
+            {"icon": "⭐", "title": "Leave a review", "description": "Reviews on Amazon help other readers discover our books. If you have read one, please take a moment to leave an honest review."},
+            {"icon": "📱", "title": "Share on social media", "description": "Post about UFC books on LinkedIn, X, Facebook, or any platform where your network might be interested."},
+            {"icon": "🏫", "title": "Recommend to educators", "description": "Know a teacher, lecturer, or tutor? Let them know about our books and how they support structured, deep learning."},
+            {"icon": "💬", "title": "Tell a friend", "description": "Word of mouth is powerful. If a friend is studying physics, learning languages, or preparing for HSK, recommend the relevant UFC title."}
+          ],
+          "columns": 2
+        },
+        {
+          "widget": "cta_band",
+          "heading": "Thank you for your support",
+          "subheading": "Every share, every review, every recommendation makes a real difference to a small independent publisher.",
+          "cta_label": "Back to What You Can Do",
+          "cta_href": "/what-you-can-do/",
+          "background": "gradient"
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "locale": "en",
+      "meta": {
+        "title": "Contact – The Unified Framework Collective",
+        "description": "Get in touch with The Unified Framework Collective. Questions about our books, educational partnerships, bulk orders, or media enquiries.",
+        "canonical": "https://unifiedframeworkcollective.surge.sh/contact/"
+      },
+      "nav": {
+        "label": "Contact",
+        "section": "More",
+        "show": true,
+        "order": 15
+      },
+      "blocks": [
+        {
+          "widget": "hero",
+          "heading": "Get in touch",
+          "subheading": "We would love to hear from readers, educators, media, and anyone interested in UFC's work.",
+          "gradient_bg": true
+        },
+        {
+          "widget": "features",
+          "heading": "Ways to reach us",
+          "items": [
+            {"icon": "🔗", "title": "LinkedIn", "description": "<a href='https://www.linkedin.com/company/113844219/' target='_blank' class='text-green-600 font-semibold hover:underline'>Connect with us on LinkedIn →</a>"},
+            {"icon": "📧", "title": "General Enquiries", "description": "For questions about our books, orders, or anything else, reach us via our LinkedIn page."},
+            {"icon": "🏫", "title": "Educators and Institutions", "description": "Interested in using UFC books in your curriculum or placing a bulk order? We would love to hear from you. <a href='/what-we-do/for-educators/' class='text-green-600 font-semibold'>See educator info →</a>"},
+            {"icon": "📰", "title": "Media and Press", "description": "For media enquiries, review copies, or interviews, please contact us via LinkedIn."}
+          ],
+          "columns": 2
+        }
+      ]
+    },
+    {
+      "slug": "privacy-policy",
+      "locale": "en",
+      "meta": {
+        "title": "Privacy Policy – The Unified Framework Collective",
+        "description": "Privacy policy for The Unified Framework Collective website.",
+        "canonical": "https://unifiedframeworkcollective.surge.sh/privacy-policy/"
+      },
+      "nav": {
+        "label": "Privacy Policy",
+        "section": "More",
+        "show": false,
+        "order": 16
+      },
+      "blocks": [
+        {
+          "widget": "about",
+          "heading": "Privacy Policy",
+          "body": "Last updated: April 2026. The Unified Framework Collective ('UFC', 'we', 'our') operates the website at unifiedframeworkcollective.surge.sh. This page describes our policies regarding the collection and use of personal information when you visit our site. We do not collect personal data through this website. This is a static informational site with no login, registration, or form submission functionality. When you purchase our books through third-party platforms (Amazon, Lulu, Gumroad), those purchases are subject to the privacy policies of those respective platforms, not this policy. We may use basic, anonymised web analytics to understand how our site is used. This does not identify individual visitors. If you have any questions about this policy, please contact us via our LinkedIn page.",
+          "layout": "centered"
+        }
+      ]
+    },
+    {
+      "slug": "accessibility-statement",
+      "locale": "en",
+      "meta": {
+        "title": "Accessibility Statement – The Unified Framework Collective",
+        "description": "Accessibility statement for The Unified Framework Collective website.",
+        "canonical": "https://unifiedframeworkcollective.surge.sh/accessibility-statement/"
+      },
+      "nav": {
+        "label": "Accessibility",
+        "section": "More",
+        "show": false,
+        "order": 17
+      },
+      "blocks": [
+        {
+          "widget": "about",
+          "heading": "Accessibility Statement",
+          "body": "The Unified Framework Collective is committed to making our website accessible to all users. We aim to conform to the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA. This site is built as a static site using semantic HTML and does not contain complex interactive elements that would create significant accessibility barriers. We use sufficient colour contrast, legible fonts, and descriptive text for all content elements. If you experience any accessibility issues with our website, please contact us via our LinkedIn page and we will do our best to address them.",
+          "layout": "centered"
+        }
+      ]
+    }
+  ]
+}

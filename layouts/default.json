@@ -1,0 +1,18 @@
+{
+  "navbar": {
+    "brand": {
+      "name": "UFC",
+      "href": "/",
+      "logo": "/assets/images/logo.png"
+    },
+    "auto": true,
+    "sticky": true
+  },
+  "footer": {
+    "brand": {"name": "The Unified Framework Collective"},
+    "auto": true,
+    "socials": [
+      {"name": "LinkedIn", "href": "https://www.linkedin.com/company/113844219/", "icon": "in"}
+    ]
+  }
+}
